@@ -1,0 +1,9 @@
+[package]
+name = "deg_reporter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "*", features = ["derive"] }
+csv = "*"
+serde =  { version = "*", features = ["derive"] }
